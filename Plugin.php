@@ -49,6 +49,11 @@ class Plugin extends Base
         return 'https://github.com/238SAMIxD/kanboard-plugin-discord';
     }
 
+    public function getPluginName()
+    {
+        return 'Discord';
+    }
+
     public function getCompatibleVersion()
     {
         return '>=1.0.37';

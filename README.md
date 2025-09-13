@@ -1,22 +1,18 @@
-Discord plugin for Kanboard
-===========================
+# Discord plugin for Kanboard
 
 Receive Kanboard notifications on Discord via Webhooks.
 
-Author
-------
+## Author
 
 - Based on the Kanboard Slack plugin by Frédéric Guillot
 - Adapted for Discord by 238SAMIxD
 - License MIT
 
-Requirements
-------------
+## Requirements
 
 - Kanboard >= 1.0.37
 
-Installation
-------------
+## Installation
 
 You have the choice between 3 methods:
 
@@ -26,8 +22,7 @@ You have the choice between 3 methods:
 
 Note: Plugin folder is case-sensitive.
 
-Configuration
--------------
+## Configuration
 
 Firstly, create a Webhook in your Discord server:
 
@@ -41,22 +36,19 @@ Notes:
 - Discord webhooks post to a fixed channel; the "Channel/Group/User" field is present for parity but is not used by Discord.
 - The message includes a direct link to the task when the Kanboard application URL is configured.
 
-Receive individual user notifications
-------------------------------------
+## Receive individual user notifications
 
 - Go to your user profile then choose **Integrations > Discord**
 - Paste the Discord webhook URL or leave it blank to use the global webhook URL
 - Enable Discord in your user notifications **Notifications > Discord**
 
-Receive project notifications
------------------------------
+## Receive project notifications
 
 - Go to the project settings then choose **Integrations > Discord**
 - Paste the Discord webhook URL or leave it blank to use the global webhook URL
 - Enable Discord in your project notifications **Notifications > Discord**
 
-Troubleshooting
----------------
+## Troubleshooting
 
 - Enable the debug mode
 - All connection errors with the Discord webhook endpoint are recorded in the log files `data/debug.log` or syslog
