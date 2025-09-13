@@ -33,7 +33,6 @@ You can define a global webhook URL in **Settings > Integrations > Discord** and
 
 Notes:
 
-- Discord webhooks post to a fixed channel; the "Channel/Group/User" field is present for parity but is not used by Discord.
 - The message includes a direct link to the task when the Kanboard application URL is configured.
 
 ## Receive individual user notifications

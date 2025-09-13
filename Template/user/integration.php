@@ -3,9 +3,6 @@
     <?= $this->form->label(t('Webhook URL'), 'discord_webhook_url') ?>
     <?= $this->form->text('discord_webhook_url', $values) ?>
 
-    <?= $this->form->label(t('Channel/Group/User (Optional)'), 'discord_webhook_channel') ?>
-    <?= $this->form->text('discord_webhook_channel', $values, array(), array('placeholder="(not used by Discord webhooks)"')) ?>
-
     <p class="form-help"><a href="https://github.com/238SAMIxD/kanboard-plugin-discord#configuration" target="_blank"><?= t('Help on Discord integration') ?></a></p>
 
     <div class="form-actions">
